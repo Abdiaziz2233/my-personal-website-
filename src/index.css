@@ -1,0 +1,503 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.landing-div{
+  background-color: #0c0c87;
+  padding: 24px 120px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links{
+  color: white;
+  text-decoration: none;
+  margin-left: 16px;
+}
+
+.home-div{
+  background-color: #0c0c87;
+  padding: 0 120px 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-right, .home-left{
+  width: 48%;
+}
+
+.home-right{
+  display: flex;
+  justify-content: center;
+}
+
+#welcome{
+  color: #bbbbff;
+}
+
+.home-left h1{
+  margin: 24px 0;
+  color: white;
+  font-size: 48px;
+}
+
+#btn-get-started{
+  margin-left: 16px;
+  border: none;
+  padding: 12px 18px;
+  background-image: linear-gradient(to bottom right, #2d2de1 , #9999de);
+  color: white;
+}
+
+.logo-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+#madowow{
+  color: white;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.twins-btns{
+  padding: 16px 48px;
+  border-radius: 4px;
+}
+
+.twin-1{
+  margin-right: 12px;
+  background-color: #09ece5;
+  border: none;
+  color: #0c0c87;
+}
+
+.twin-2{
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.businessman{
+  width: 60%;
+}
+
+/* ....................................... */
+/* .home-div */
+/* biruu.... */
+
+
+#welcome {
+  font-size: 24px;
+  color: skyblue; 
+  font-weight: bold; 
+  text-align:start; 
+  margin-top: 20px; 
+  transition: color 0.3s; 
+  margin-top: 0;
+}
+
+#welcome:hover {
+  color:blue; 
+}
+
+
+p{
+  color:white;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: left;
+}
+/* 
+phhoto */
+.one-way {
+  width: 60%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease; 
+}
+
+.one-way:hover {
+  transform: scale(1.05); 
+}
+
+.one-way:active {
+  transform: scale(0.95); 
+}
+
+
+
+
+/* WHITE DIV */
+/* ::::::::::::"""""""""" */
+
+.white-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cards{
+  
+  background-color: white;
+  color: #0c0c87;
+  padding: 48px;
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition:  0.5s;
+}
+.cards p {
+  color:black;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.cards:hover{
+  box-shadow: 0px 8px 41px 4px rgba(217,217,217,1);
+  transform: scale(106%);
+}
+
+.cards button{
+  padding: 12px 24px;
+  background-color: #0c0c87;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.computer-icon{
+  font-size: 48px;
+}
+
+/* patients */
+/* :::::::::::::"""""""" */
+
+
+.customers{
+  text-align: center;
+  margin: 40px;
+}
+ /* logo.......... */
+ .logo-apple {
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo-apple img{
+  width: 160px;
+  margin-bottom: 24px;
+}
+
+
+
+
+/* MATTERS */
+/* :::::::::::"""""""""""""" */
+
+
+
+/* CSS code */
+.matter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.matter-one {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 25%;
+}
+.investerman{
+  width: 25%;
+}
+
+
+.matter-h3 {
+  color: #333;
+}
+
+.matter p {
+  color: #666;
+}
+
+.matter-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.matter-button:hover {
+  background-color: #0056b3;
+}
+
+.remote-div {
+  border-radius: 6px;
+  display: flex;
+  margin-bottom: 12px;
+  padding: 8px;
+  /* box-shadow: 0px 8px 41px 4px rgba(217,217,217,1); */
+}
+
+.check{
+  font-size: 50px;
+  margin-right: 10px; /* Margin to the right */
+  color: #007bff;
+}
+
+.blulight {
+  background-image: linear-gradient(to right, #2d2de1 , #1c9ec9);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* FOOTER */
+/* ::::::"""""""""" */
+
+ 
+.footer{
+  background-color: #333;
+  color: #978fa3;
+  background: rgb(13, 13, 177);
+  padding: 20px;
+ 
+
+}
+
+
+/* ABOUT US */
+/* ::::::::::::::::::::::::: */
+
+
+
+/* Style for the whole container */
+.App {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+/* Style for the header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style for the h1 inside header */
+header h1 {
+  margin: 0;
+}
+
+/* Style for the section containing about-us */
+.about-us {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the text part */
+.about-text {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Style for the image part */
+.about-image {
+  flex: 1;
+}
+
+/* Style for the image itself */
+.about-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Additional CSS */
+
+/* Style for the h2 inside about-text */
+.about-text h2 {
+  color: #333333; /* dark gray color */
+  font-size: 24px;
+}
+
+/* Style for the paragraph inside about-text */
+.about-text p {
+  color: #756767; /* medium gray color */
+  font-size: 16px;
+}
+
+/* Style for the body text */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Style for the section */
+section {
+  margin-bottom: 20px;
+}
+
+
+
+/* SERVICES */
+/* ::::::::::::::::: */
+
+
+/* Style the header */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the h1 inside the header */
+header h1 {
+  margin: 0;
+}
+
+/* Style the section containing services */
+.services {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/* Style each individual service */
+.service {
+  width: 30%; /* Adjust as needed */
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+/* Style the h2 inside each service */
+.service h2 {
+  color: #4CAF50;
+}
+
+/* Style the paragraphs inside each service */
+.service p {
+  color: #333;
+}
+
+
+/* CONTACTS */
+/* :::::::::::::::::::::: */
+
+/* Style for the header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for the contact form */
+.contact-form {
+  margin: 20px auto;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+/* Style for form groups */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Style for labels */
+label {
+  display: block;
+  font-weight: bold;
+}
+
+/* Style for input fields and text area */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding and border are included in element's total width and height */
+}
+
+/* Style for submit button */
+button[type="submit"] {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Change submit button color on hover */
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style for CV section */
+.cv-section {
+  margin: 20px auto;
+  max-width: 700px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+
+}
+.cv-section {
+  display: none;
+}
+
+.cv-section.visible {
+  display: block;
+}
+
+
+/* Style for CV section heading */
+.cv-section h2 {
+  color: #333;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
